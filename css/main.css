@@ -12,7 +12,7 @@
     --brand--title: rgba(255, 255, 255, 0.80);
 }
 .container {
-    width: 1500px;
+    width: 1224px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -23,9 +23,13 @@ body {
     font-family: "Poppins";
     background: var(--main-background);
 }
+.header {
+    padding-top: 26px;
+}
 .header-info {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header-logo {
     display: flex;
@@ -34,11 +38,9 @@ body {
     font-size: 22px;
     font-weight: 600;
     line-height: normal;
-    padding-top: 31px;
 }
 .header-list {
     display: flex;
-    padding-top: 38px;
     gap: 42px;
 }
 .header-link {
@@ -51,7 +53,6 @@ body {
     display: flex;
     align-items: center;
     gap: 41px;
-    padding-top: 26px;
 }
 .registration-link {
     color: var(--info-color);
@@ -75,7 +76,6 @@ body {
     font-size: 50px;
     font-weight: 500;
     line-height: 140%;
-    margin-top: 111px;
     margin-bottom: 30px;
 }
 .hero-span {
@@ -97,6 +97,7 @@ body {
     height: 64px;
     flex-shrink: 0;
     display: flex;
+    align-items: center;
     background: var(--form-background);
     border-radius: 15px;
     border: 1.5px rgba(255, 255, 255, 0.10);
@@ -107,12 +108,10 @@ body {
     height: 24px;
     margin-right: 13.04px;
     margin-left: 18.06px;
-    margin-top: 20px;
 }
 .search-input {
     width: 190px;
     height: 21px;
-    margin-top: 21px;
     margin-right: 111px;
     color: var(--search-input);
     background: var(--form-background);
@@ -124,7 +123,6 @@ body {
     width: 130.435px;
     height: 48px;
     flex-shrink: 0;
-    margin-top: 8px;
     border: none;
     border-radius: 8px;
     background: var(--logo-color);
@@ -140,14 +138,15 @@ body {
 .hero{
     background-image: url(../img/main-img.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right ;
+    padding-top: 58px;
+    padding-bottom: 200px;
 }
 .tools {
     text-align: center;
 }
 .tools-title {
     color: var(--title-color);
-    margin-top: 200px;
     text-align: center;
     font-size: 48px;
     font-style: normal;
@@ -174,7 +173,7 @@ body {
     justify-content: center;
 }
 .tools-item {
-    padding: 33px;
+    margin-bottom: 100px;
 }
 .item-box {
     display: flex;
@@ -287,7 +286,7 @@ body {
     flex-wrap: wrap;
     gap: 24px;
     justify-content: end;
-    margin-left: 270px;
+    margin-left: 197px;
 }
 .newcomer-item {
     margin-bottom: 50px;
@@ -351,4 +350,56 @@ body {
     padding: 12px 36.43px;
     margin-left: 190px;
     margin-top: 8px;
+}
+.footer {
+    padding-top: 240px;
+}
+.footer-list {
+    display: flex;
+}
+.footer-item {
+    margin-top: 70px;
+    margin-right: 156px;
+}
+.footer-title {
+    color: var(--title-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer-info {
+    width: 260px;
+    color: var(--info-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.info-list {
+    display: flex;
+}
+.info-item:first-child {
+    margin-right: 90px;
+}
+.info-item:nth-child(even) {
+    margin-right: 81px;
+}
+.address {
+    display: flex;
+    flex-direction: column;
+}
+.info-title {
+    color: var(--title-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+}
+.info-description {
+    color: var(--info-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+.company-box {
+    display: flex;
+    flex-direction: column;
 }
