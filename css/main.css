@@ -8,6 +8,8 @@
     --brand-background: rgba(44, 53, 61, 0.20);
     --form-background: #283036;
     --price-color:rgba(255, 165, 55, 0.55);
+    --item-head:rgba(255, 255, 255, 0.78);
+    --brand--title: rgba(255, 255, 255, 0.80);
 }
 .container {
     width: 1500px;
@@ -135,13 +137,13 @@ body {
     display: flex;
     gap: 19px;
 }
-.main-img {
-    background-image: url(../img/main-img.jpg);
+.hero{
+    background-image: url(../img/main-img.png);
     background-repeat: no-repeat;
-    width: 589px;
-    height: 892px;
-    margin-left: 740px;
-    padding: 0;
+    background-position: right;
+}
+.tools {
+    text-align: center;
 }
 .tools-title {
     color: var(--title-color);
@@ -159,11 +161,194 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 30px;
+    margin-bottom: 90px;
+    width: 427px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
 }
 .tools-list {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    justify-content: center;
 }
-
-
+.tools-item {
+    padding: 33px;
+}
+.item-box {
+    display: flex;
+    gap: 30px;
+}
+.item-title {
+    color: var(--item-head);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+}
+.price {
+    color: var(--price-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.item-info {
+    width: 326px;
+    margin-top: 31px;
+    color: var(--info-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: start;
+}
+.item-list {
+    display: flex;
+    gap: 18px;
+}
+.last-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.item-link {
+    border-radius: 8px;
+    padding: 9px 35px;
+    color: var(--info-color);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+}
+.tools-button {
+    width: 184px;
+    border-radius: 8px;
+    border: 1px rgba(255, 255, 255, 0.10);
+    background: #1E252B;
+    color: var(--logo-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 17px 38px;
+    margin-top: 100px;
+}
+.brand {
+    padding-top: 200px;
+    text-align: center;
+    background-image: url(../img/brand-background.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.brand-title {
+    color: var(--brand--title);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 56px;
+}
+.bravd-list {
+    display: flex;
+    justify-content: center;
+    gap: 107px;
+    padding-bottom: 56px;
+}
+.newcomer {
+    padding-top: 220px;
+}
+.newcomer-box {
+    display: flex;
+}
+.newcomer-title {
+    color: var(--title-color);
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 130%;
+}
+.newcomer-info {
+    color: var(--info-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 427px;
+    margin-top: 30px;
+}
+.newcomer-button {
+    border: none;
+    border-radius: 8px;
+    background: #FF6E30;
+    color: var(--title-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 16px 40px 15px 40px;
+    margin-top: 60px;
+}
+.newcomer-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: end;
+    margin-left: 270px;
+}
+.newcomer-item {
+    margin-bottom: 50px;
+}
+.newcomer-description {
+    width: 245px;
+    margin-top: 31px;
+    color: var(--info-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.contributor {
+    padding-top: 250px;
+    text-align: center;
+}
+.contributor-title {
+    color: var(--title-color);
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 130%;
+    margin-bottom: 25px;
+}
+.contributor-info {
+    color: var(--info-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 427px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.contributor-box {
+    width: 549px;
+    height: 64px;
+    border-radius: 15px;
+    border: 1.5px rgba(255, 255, 255, 0.10);
+    background: #283036;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+.contributor-input {
+    width: 190px;
+    color: var(--search-input);
+    background: var(--form-background);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 24.18px;
+}
+.contributor-button {
+    border: none;
+    border-radius: 8px;
+    background: #FF6E30;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    padding: 12px 36.43px;
+    margin-left: 190px;
+    margin-top: 8px;
+}
