@@ -170,10 +170,12 @@ body {
 .tools-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 25px;
+    row-gap: 100px;
 }
 .tools-item {
-    margin-bottom: 100px;
     padding: 34px 33px 33px 33px;
+    flex-basis: calc((100% - 50px) / 3);
 }
 .tools-item:hover {
     background-image: url(../img/tools-hover.png);
@@ -297,6 +299,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 50px;
     justify-content: end;
 }
 .newcomer-item {
