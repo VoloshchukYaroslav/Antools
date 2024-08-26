@@ -196,6 +196,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-align: start;
 }
 .item-info {
     width: 326px;
