@@ -12,7 +12,7 @@
     --brand--title: rgba(255, 255, 255, 0.80);
 }
 .container {
-    width: 1224px;
+    width: 1254px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -170,12 +170,13 @@ body {
 .tools-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 24px;
     row-gap: 100px;
 }
 .tools-item {
+    /* width: 392px; */
     padding: 34px 33px 33px 33px;
-    flex-basis: calc((100% - 50px) / 3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 .tools-item:hover {
     background-image: url(../img/tools-hover.png);
