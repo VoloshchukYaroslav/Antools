@@ -10,6 +10,7 @@
     --price-color:rgba(255, 165, 55, 0.55);
     --item-head:rgba(255, 255, 255, 0.78);
     --brand--title: rgba(255, 255, 255, 0.80);
+    --line-color: rgba(255, 255, 255, 0.15);
 }
 .container {
     width: 1254px;
@@ -321,8 +322,9 @@ body {
 .team {
     padding-top: 328px;
 }
-.team-container {
+.eam-container {
     display: flex;
+    flex-direction: row;
     align-items: center;
 }
 .team-box {
@@ -348,7 +350,7 @@ body {
     background-image: url(../img/name-background.png);
     background-repeat: no-repeat;
     position: absolute;
-    top: 70%;
+    top: 65%;
     left: 50%;
 }
 .name-title {
@@ -357,16 +359,29 @@ body {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.39px;
+    padding-top: 10px;
+    padding-right: 22px;
+    padding-left: 23px;
 }
 .name-info {
     color: var(--info-color);
     font-size: 16px;
     font-weight: 400;
     line-height: normal;
+    padding-bottom: 16px;
+    padding-left: 23px;
+}
+.right-img {
+    margin-left: 125px;
+}
+.slice-img {
+    margin-left: auto;
+    margin-right: auto;
 }
 .contributor {
     padding-top: 250px;
     text-align: center;
+    padding-bottom: 240px;
 }
 .contributor-title {
     color: var(--title-color);
@@ -419,7 +434,7 @@ body {
     margin-left: 190px;
 }
 .footer {
-    padding-top: 240px;
+    border-top: 1px solid var(--line-color);
 }
 .footer-list {
     display: flex;
@@ -433,6 +448,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: normal;
+    margin-top: 27px;
 }
 .footer-info {
     width: 260px;
@@ -440,6 +456,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 25px;
+    margin-top: 21px;
 }
 .info-list {
     display: flex;
@@ -459,12 +476,14 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: normal;
+    margin-bottom: 20px;
 }
 .info-description {
     color: var(--info-color);
     font-size: 16px;
     font-weight: 500;
     line-height: normal;
+    margin-bottom: 10px;
 }
 .company-box {
     display: flex;
