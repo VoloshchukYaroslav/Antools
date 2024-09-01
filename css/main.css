@@ -174,7 +174,6 @@ body {
     row-gap: 100px;
 }
 .tools-item {
-    /* width: 392px; */
     padding: 34px 33px 33px 33px;
     flex-basis: calc((100% - 48px) / 3);
 }
@@ -304,7 +303,6 @@ body {
     justify-content: end;
 }
 .newcomer-item {
-    margin-bottom: 50px;
     padding: 29px 21px 28px 22px;
 }
 .newcomer-item:hover {
@@ -319,6 +317,52 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
+}
+.team {
+    padding-top: 328px;
+}
+.team-container {
+    display: flex;
+    align-items: center;
+}
+.team-box {
+    width: 666px;
+    height: 832px;
+    background-image: url(../img/ronald.png),url(../img/team-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.team-info {
+    width: 393px;
+    color: var(--item-head);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.21px;
+}
+.name-box {
+    width: 265px;
+    border-radius: 8px;
+    background-image: url(../img/name-background.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+.name-title {
+    color: var(--item-head);
+    font-size: 26px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.39px;
+}
+.name-info {
+    color: var(--info-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
 }
 .contributor {
     padding-top: 250px;
@@ -342,6 +386,8 @@ body {
     margin-bottom: 100px;
 }
 .contributor-box {
+    display: flex;
+    align-items: center;
     width: 549px;
     height: 64px;
     border-radius: 15px;
@@ -371,7 +417,6 @@ body {
     line-height: normal;
     padding: 12px 36.43px;
     margin-left: 190px;
-    margin-top: 8px;
 }
 .footer {
     padding-top: 240px;
