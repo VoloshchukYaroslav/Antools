@@ -445,6 +445,9 @@ body {
     margin-top: 70px;
     margin-right: 156px;
 }
+.footer-item:last-child {
+    margin-right: 0px;
+}
 .footer-title {
     color: var(--title-color);
     font-size: 16px;
@@ -464,10 +467,10 @@ body {
     display: flex;
 }
 .info-item:first-child {
-    margin-right: 90px;
+    margin-right: 115px;
 }
 .info-item:nth-child(even) {
-    margin-right: 81px;
+    margin-right: 118px;
 }
 .address {
     display: flex;
